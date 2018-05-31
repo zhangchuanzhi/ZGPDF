@@ -13,6 +13,14 @@
 		2322305A20BD4A4C009B86C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2322305920BD4A4C009B86C7 /* Assets.xcassets */; };
 		2322305D20BD4A4C009B86C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2322305B20BD4A4C009B86C7 /* LaunchScreen.storyboard */; };
 		2322306020BD4A4C009B86C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2322305F20BD4A4C009B86C7 /* main.m */; };
+		2322307320BD4EDE009B86C7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2322306E20BD4EDE009B86C7 /* UIView+Frame.m */; };
+		2322307420BD4EDE009B86C7 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2322307020BD4EDE009B86C7 /* NSTimer+addition.m */; };
+		2322307520BD4EDE009B86C7 /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2322307220BD4EDE009B86C7 /* WYWebProgressLayer.m */; };
+		2322307820BD51B6009B86C7 /* ZGBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2322307720BD51B6009B86C7 /* ZGBaseController.m */; };
+		23BB66F720BE72CD0030B593 /* ZGPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BB66F620BE72CD0030B593 /* ZGPDFViewController.m */; };
+		23BB66FA20BE866D0030B593 /* ZGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BB66F920BE866D0030B593 /* ZGWebViewController.m */; };
+		23BB66FD20BE9D000030B593 /* ZGWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BB66FC20BE9D000030B593 /* ZGWelcomeViewController.m */; };
+		3A67E66E6792B4BA80F8C088 /* libPods-ZGPDF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EE481B5953ECF6EB1F7BA1 /* libPods-ZGPDF.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,24 @@
 		2322305C20BD4A4C009B86C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2322305E20BD4A4C009B86C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2322305F20BD4A4C009B86C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2322306620BD4C6C009B86C7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2322306D20BD4EDE009B86C7 /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		2322306E20BD4EDE009B86C7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		2322306F20BD4EDE009B86C7 /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
+		2322307020BD4EDE009B86C7 /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		2322307120BD4EDE009B86C7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2322307220BD4EDE009B86C7 /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
+		2322307620BD51B6009B86C7 /* ZGBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGBaseController.h; sourceTree = "<group>"; };
+		2322307720BD51B6009B86C7 /* ZGBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGBaseController.m; sourceTree = "<group>"; };
+		23BB66F520BE72CD0030B593 /* ZGPDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPDFViewController.h; sourceTree = "<group>"; };
+		23BB66F620BE72CD0030B593 /* ZGPDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPDFViewController.m; sourceTree = "<group>"; };
+		23BB66F820BE866D0030B593 /* ZGWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGWebViewController.h; sourceTree = "<group>"; };
+		23BB66F920BE866D0030B593 /* ZGWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGWebViewController.m; sourceTree = "<group>"; };
+		23BB66FB20BE9D000030B593 /* ZGWelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGWelcomeViewController.h; sourceTree = "<group>"; };
+		23BB66FC20BE9D000030B593 /* ZGWelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGWelcomeViewController.m; sourceTree = "<group>"; };
+		23C5D5C0C61BCDE4DDE45D88 /* Pods-ZGPDF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGPDF.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGPDF/Pods-ZGPDF.release.xcconfig"; sourceTree = "<group>"; };
+		67EE481B5953ECF6EB1F7BA1 /* libPods-ZGPDF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZGPDF.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C5CBE7A2692DBBA10C4D4C /* Pods-ZGPDF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGPDF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGPDF/Pods-ZGPDF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A67E66E6792B4BA80F8C088 /* libPods-ZGPDF.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +71,8 @@
 			children = (
 				2322304F20BD4A4A009B86C7 /* ZGPDF */,
 				2322304E20BD4A4A009B86C7 /* Products */,
+				A06289B8E23C6C3D20142A0A /* Pods */,
+				CE011DF22BD926B83874B553 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +87,11 @@
 		2322304F20BD4A4A009B86C7 /* ZGPDF */ = {
 			isa = PBXGroup;
 			children = (
+				2322306920BD4DA0009B86C7 /* Base */,
+				2322306A20BD4DA1009B86C7 /* Main */,
+				2322306820BD4DA0009B86C7 /* PDF */,
+				2322306720BD4DA0009B86C7 /* Web */,
+				2322306B20BD4EC7009B86C7 /* Libs */,
 				2322305020BD4A4A009B86C7 /* AppDelegate.h */,
 				2322305120BD4A4A009B86C7 /* AppDelegate.m */,
 				2322305320BD4A4A009B86C7 /* ViewController.h */,
@@ -67,8 +101,83 @@
 				2322305B20BD4A4C009B86C7 /* LaunchScreen.storyboard */,
 				2322305E20BD4A4C009B86C7 /* Info.plist */,
 				2322305F20BD4A4C009B86C7 /* main.m */,
+				2322306620BD4C6C009B86C7 /* PrefixHeader.pch */,
 			);
 			path = ZGPDF;
+			sourceTree = "<group>";
+		};
+		2322306720BD4DA0009B86C7 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				23BB66F820BE866D0030B593 /* ZGWebViewController.h */,
+				23BB66F920BE866D0030B593 /* ZGWebViewController.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		2322306820BD4DA0009B86C7 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				23BB66F520BE72CD0030B593 /* ZGPDFViewController.h */,
+				23BB66F620BE72CD0030B593 /* ZGPDFViewController.m */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		2322306920BD4DA0009B86C7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2322307620BD51B6009B86C7 /* ZGBaseController.h */,
+				2322307720BD51B6009B86C7 /* ZGBaseController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2322306A20BD4DA1009B86C7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				23BB66FB20BE9D000030B593 /* ZGWelcomeViewController.h */,
+				23BB66FC20BE9D000030B593 /* ZGWelcomeViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2322306B20BD4EC7009B86C7 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				2322306C20BD4EDE009B86C7 /* NavBarProgress */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		2322306C20BD4EDE009B86C7 /* NavBarProgress */ = {
+			isa = PBXGroup;
+			children = (
+				2322306D20BD4EDE009B86C7 /* NSTimer+addition.h */,
+				2322307020BD4EDE009B86C7 /* NSTimer+addition.m */,
+				2322307120BD4EDE009B86C7 /* UIView+Frame.h */,
+				2322306E20BD4EDE009B86C7 /* UIView+Frame.m */,
+				2322306F20BD4EDE009B86C7 /* WYWebProgressLayer.h */,
+				2322307220BD4EDE009B86C7 /* WYWebProgressLayer.m */,
+			);
+			path = NavBarProgress;
+			sourceTree = "<group>";
+		};
+		A06289B8E23C6C3D20142A0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90C5CBE7A2692DBBA10C4D4C /* Pods-ZGPDF.debug.xcconfig */,
+				23C5D5C0C61BCDE4DDE45D88 /* Pods-ZGPDF.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE011DF22BD926B83874B553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67EE481B5953ECF6EB1F7BA1 /* libPods-ZGPDF.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2322306320BD4A4C009B86C7 /* Build configuration list for PBXNativeTarget "ZGPDF" */;
 			buildPhases = (
+				66F66287306D94BAE5A627A9 /* [CP] Check Pods Manifest.lock */,
 				2322304920BD4A4A009B86C7 /* Sources */,
 				2322304A20BD4A4A009B86C7 /* Frameworks */,
 				2322304B20BD4A4A009B86C7 /* Resources */,
+				4DE6139665D10C4092435817 /* [CP] Embed Pods Frameworks */,
+				76395053F46A0712D2D2E594 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +209,7 @@
 		2322304520BD4A4A009B86C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZG;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = cn;
 				TargetAttributes = {
@@ -136,14 +249,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DE6139665D10C4092435817 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGPDF/Pods-ZGPDF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F66287306D94BAE5A627A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZGPDF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76395053F46A0712D2D2E594 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGPDF/Pods-ZGPDF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2322304920BD4A4A009B86C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BB66FD20BE9D000030B593 /* ZGWelcomeViewController.m in Sources */,
+				2322307320BD4EDE009B86C7 /* UIView+Frame.m in Sources */,
+				23BB66FA20BE866D0030B593 /* ZGWebViewController.m in Sources */,
+				2322307520BD4EDE009B86C7 /* WYWebProgressLayer.m in Sources */,
+				23BB66F720BE72CD0030B593 /* ZGPDFViewController.m in Sources */,
 				2322305520BD4A4A009B86C7 /* ViewController.m in Sources */,
 				2322306020BD4A4C009B86C7 /* main.m in Sources */,
 				2322305220BD4A4A009B86C7 /* AppDelegate.m in Sources */,
+				2322307820BD51B6009B86C7 /* ZGBaseController.m in Sources */,
+				2322307420BD4EDE009B86C7 /* NSTimer+addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +452,14 @@
 		};
 		2322306420BD4A4C009B86C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C5CBE7A2692DBBA10C4D4C /* Pods-ZGPDF.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGPDF/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGPDF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +472,14 @@
 		};
 		2322306520BD4A4C009B86C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C5D5C0C61BCDE4DDE45D88 /* Pods-ZGPDF.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGPDF/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGPDF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

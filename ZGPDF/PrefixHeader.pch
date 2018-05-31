@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  ZGPDF
+//
+//  Created by offcn_zcz32036 on 2018/5/29.
+//  Copyright © 2018年 cn. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIView+Toast.h"
+#import "MBProgressHUD.h"
+#import "Masonry.h"
+#define IOS_VERSION               [[[UIDevice currentDevice] systemVersion] floatValue]
+#define SCREEN_WIDTH              ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT             ([UIScreen mainScreen].bounds.size.height)
+
+
+#define kUIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define kUIColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define kPDFURL @"http://101.37.2.101/oss/%E5%80%9F%E6%AC%BE%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE2845638816a6420db5da26069fdef0f9.pdf?Expires=4680169941&OSSAccessKeyId=LTAIVte00lkdPULh&Signature=HPCE2w3pXECSyHTkUSjnHfC/CbA%3D"
+
+#endif 
